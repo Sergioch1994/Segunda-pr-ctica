@@ -1,14 +1,21 @@
 body {
     background-color: var(--secondary-color);
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
+.hero-section {
 
+    
+    box-sizing: border-box;
+    
+}
 
 
  .hero-container {
     
-    margin-left: 30px;
-    margin-right: 30px;
+   
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,6 +35,7 @@ body {
     h2 {
         font-family: var(--secondary-font-family);
         font-size: 1rem;
+        text-align: center;
     }
 
     p {
@@ -47,14 +55,18 @@ body {
     overflow: hidden;
     
     
+    
     }
 
     .hero-images img {
 
       width: 100%;
+      height: 100%;
       display: block;
       object-fit: cover;
-
+      border: none;
+      
+      
 
     }
     
@@ -65,6 +77,8 @@ body {
         grid-column: 1 / 3;
         grid-row: 1 / 2;
         object-fit: cover;
+        border: none;
+        
        
 
      }
@@ -74,6 +88,9 @@ body {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
         padding: 0.6rem;
+        border: none;
+        height: 100%;
+        background-color: whitesmoke;
 
      }
 
@@ -82,6 +99,7 @@ body {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
         padding: 0.6rem 0.6rem 0.6rem 0;
+        background-color: whitesmoke;
 
 
      }
@@ -107,13 +125,15 @@ body {
         padding-top: 1rem;
 
         h3 {
-
+            
+          font-family: var(--secondary-font-family);
           width: 100%;
           color: aliceblue;
           font-size: 2rem;
           text-align: center;
           border-top: 1px solid var(--secondary-color);
-          padding: 0.5rem;
+          padding: 2.5rem;
+          
         }
 
      }
@@ -122,6 +142,7 @@ body {
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 0.1rem;
 
         div {
 
@@ -130,15 +151,23 @@ body {
           width: 100%;
           display: flex;
           flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          padding: 0.5rem;
           
+          gap: 1rem;
+          padding: 0.5rem;
           border: 1px solid var(--secondary-color);
           border-right: none;
           border-left: none;
           background-color: var(--primary-color);
           color: aliceblue;
+        }
+
+        p {
+
+            font-family: var(--secondary-font-family);
+            font-size: 0.6rem;
+            text-align: left;
+            width: 100%;
+            
         }
         
 
@@ -150,11 +179,15 @@ body {
 
         overflow: hidden;
         box-sizing: border-box;
-        width: 50%;
+        display: flex;
+        text-align: left;
+        width: 100%;
         padding: 0.5rem;
-        border: 1px solid var(--secondary-color); 
         background-color: var(--primary-color);
         color: aliceblue;
+
+
+      
 
         
      }
