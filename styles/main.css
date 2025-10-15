@@ -1,4 +1,4 @@
-/*Mobile View*/
+
 
 body {
   background-color: var(--secondary-color);
@@ -7,7 +7,7 @@ body {
 }
 
 
-/*Hero Section with three images*/
+
 
 
 .hero-section {
@@ -41,6 +41,7 @@ body {
     font-family: var(--secondary-font-family);
     font-size: 0.8rem;
     text-align: center;
+    
   }
 }
 
@@ -85,7 +86,7 @@ body {
 }
 
 
-/*Shopping Section with Products and Prices*/
+
 
 
 .furniture-container {
@@ -177,7 +178,6 @@ body {
 }
 
 
-/*Desktop View*/ 
 
 
 @media (min-width: 1024px) {
@@ -187,9 +187,7 @@ body {
     margin-right: 2rem;
   }
 
-
-  /*Hero Section with three images*/
-
+  
 
   .hero-container {
     border: 1px solid rgba(184, 180, 180, 0.308);
@@ -205,19 +203,19 @@ body {
 
     h1 {
       font-family: var(--primary-font-family);
-      font-size: 4rem;
+      font-size: 3rem;
       font-weight: 1rem;
     }
 
     h2 {
       font-family: var(--secondary-font-family);
-      font-size: 1rem;
+      font-size: 0.8rem;
       text-align: center;
     }
 
     p {
       font-family: var(--secondary-font-family);
-      font-size: 1rem;
+      font-size: 0.8rem;
       width: 50%;
       text-align: center;
     }
@@ -264,7 +262,7 @@ body {
   }
 
 
-  /*Shopping Section with Products and Prices*/
+  
 
   
 

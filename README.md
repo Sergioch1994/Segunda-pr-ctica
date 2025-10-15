@@ -6,4 +6,3 @@ During the development of this project, we applied the knowledge acquired about 
 
 - HTML
 - CSS 
-
