@@ -20,17 +20,20 @@ body {
 
     h1 {
 
+        font-family: var(--primary-font-family);
         font-size: 2rem;
+        
     }
 
     h2 {
-
+        font-family: var(--secondary-font-family);
         font-size: 1rem;
     }
 
     p {
-
+        font-family: var(--secondary-font-family);
         font-size: 0.8rem;
+        text-align: center;
     }
 
    
@@ -130,6 +133,7 @@ body {
           justify-content: center;
           align-items: center;
           padding: 0.5rem;
+          
           border: 1px solid var(--secondary-color);
           border-right: none;
           border-left: none;
@@ -142,7 +146,7 @@ body {
 
      
 
-     .products-image-a {
+     .products-image {
 
         overflow: hidden;
         box-sizing: border-box;
@@ -164,13 +168,14 @@ body {
         padding: 1.5rem 0;
 
         h4 {
-
+         
+         font-family: var(--primary-font-family);
          box-sizing: border-box;
-          width: 100%;
-          padding-bottom: 1.3rem;
-          display: flex;
-          justify-content: center;
-          border-bottom: 1px solid var(--secondary-color);
+         width: 100%;
+         padding-bottom: 1.3rem;
+         display: flex;
+         justify-content: center;
+         border-bottom: 1px solid var(--secondary-color);
 
         }
      }
